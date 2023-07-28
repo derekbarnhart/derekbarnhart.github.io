@@ -3,17 +3,43 @@
   <head>
     <meta charset="utf-8">
     <title></title>
-    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-    <script
-  src="https://code.jquery.com/jquery-3.1.1.min.js"
-  integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
-  crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.1.10/vue.js"></script>
-    <script src="bundle.js"></script>
+    <style>
+      html {
+        font-size: 10px;
+      }
+      body {
+        background: linear-gradient(-45deg, #F5B91B, #00F573, #FC502B, #2B7EFC);
+        background-size: 500% 500%;
+        animation: gradient 60s ease infinite;
+        height: 100vh;
+        display:flex;
+        align-items: center;
+        justify-content: center;
+      }
+
+      @keyframes gradient {
+        0% {
+          background-position: 0% 50%;
+        }
+        50% {
+          background-position: 100% 50%;
+        }
+        100% {
+          background-position: 0% 50%;
+        }
+      }
+
+      h2 {
+        color: white;
+        text-shadow:2px 2px rgba(128,128,128);
+        font-size: 5em;
+      }
+
+    </style>
   </head>
   <body>
-    <h1>Hello World</hello>
-      <input type="file" accept="image/*;capture=camera">
+    <main>
+      <h2>Hello</h2>
+    </main>
   </body>
 </html>
