@@ -1,0 +1,389 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>example preview</title>
+    <link rel="stylesheet" href="./example.css" />
+    <style>
+      :root { --gap: 10px; font-family: system-ui, -apple-system, Segoe UI, Roboto, sans-serif; }
+      body { margin: 0; padding: 20px; }
+      .row { display: flex; gap: var(--gap); flex-wrap: wrap; }
+      .chip { border-radius: 8px; padding: 10px; min-width: 130px; border: 1px solid var(--border-subtle); }
+      .title { font-weight: 600; margin-bottom: 8px; }
+      .toggle { position: fixed; top: 12px; right: 12px; }
+      [data-mode="light"] body { background: var(--surface-canvas); color: var(--text-primary); }
+      [data-mode="dark"] body { background: var(--surface-canvas); color: var(--text-primary); }
+    </style>
+  </head>
+  <body data-theme="example" data-mode="light">
+    <button class="toggle" onclick="(function(){var r=document.documentElement;var m=r.getAttribute('data-mode')==='light'?'dark':'light';r.setAttribute('data-mode',m);document.body.setAttribute('data-mode',m);})();">Toggle Mode</button>
+    <script>document.documentElement.setAttribute('data-theme','example');document.documentElement.setAttribute('data-mode','light');</script>
+    <h1>example – Preview</h1>
+    <section>
+      <h2>Neutrals</h2>
+      <div class="row">
+        
+          <div class="chip" style="background: var(--surface-canvas)"><div class="title">surface-canvas</div></div>
+        
+
+          <div class="chip" style="background: var(--surface-panel)"><div class="title">surface-panel</div></div>
+        
+
+          <div class="chip" style="background: var(--surface-subtle)"><div class="title">surface-subtle</div></div>
+        
+
+          <div class="chip" style="background: var(--text-primary)"><div class="title">text-primary</div></div>
+        
+
+          <div class="chip" style="background: var(--text-muted)"><div class="title">text-muted</div></div>
+        
+
+          <div class="chip" style="background: var(--border-subtle)"><div class="title">border-subtle</div></div>
+        
+
+          <div class="chip" style="background: var(--border-strong)"><div class="title">border-strong</div></div>
+        
+      </div>
+    </section>
+    <section>
+      <h2>Swatches</h2>
+      
+        <h3>red</h3>
+        <div class="row">
+          
+            <div class="chip" style="background: var(--color-red-alt1-bg); color: var(--color-red-alt1-fg)">
+              <div class="title">alt1</div>
+              <div>bg</div>
+              <div style="border-top:1px solid var(--color-red-alt1-border); margin-top:6px; padding-top:6px">border/accent</div>
+            </div>
+          
+            <div class="chip" style="background: var(--color-red-alt2-bg); color: var(--color-red-alt2-fg)">
+              <div class="title">alt2</div>
+              <div>bg</div>
+              <div style="border-top:1px solid var(--color-red-alt2-border); margin-top:6px; padding-top:6px">border/accent</div>
+            </div>
+          
+            <div class="chip" style="background: var(--color-red-alt3-bg); color: var(--color-red-alt3-fg)">
+              <div class="title">alt3</div>
+              <div>bg</div>
+              <div style="border-top:1px solid var(--color-red-alt3-border); margin-top:6px; padding-top:6px">border/accent</div>
+            </div>
+          
+        </div>
+      
+
+        <h3>orange</h3>
+        <div class="row">
+          
+            <div class="chip" style="background: var(--color-orange-alt1-bg); color: var(--color-orange-alt1-fg)">
+              <div class="title">alt1</div>
+              <div>bg</div>
+              <div style="border-top:1px solid var(--color-orange-alt1-border); margin-top:6px; padding-top:6px">border/accent</div>
+            </div>
+          
+            <div class="chip" style="background: var(--color-orange-alt2-bg); color: var(--color-orange-alt2-fg)">
+              <div class="title">alt2</div>
+              <div>bg</div>
+              <div style="border-top:1px solid var(--color-orange-alt2-border); margin-top:6px; padding-top:6px">border/accent</div>
+            </div>
+          
+            <div class="chip" style="background: var(--color-orange-alt3-bg); color: var(--color-orange-alt3-fg)">
+              <div class="title">alt3</div>
+              <div>bg</div>
+              <div style="border-top:1px solid var(--color-orange-alt3-border); margin-top:6px; padding-top:6px">border/accent</div>
+            </div>
+          
+        </div>
+      
+
+        <h3>amber</h3>
+        <div class="row">
+          
+            <div class="chip" style="background: var(--color-amber-alt1-bg); color: var(--color-amber-alt1-fg)">
+              <div class="title">alt1</div>
+              <div>bg</div>
+              <div style="border-top:1px solid var(--color-amber-alt1-border); margin-top:6px; padding-top:6px">border/accent</div>
+            </div>
+          
+            <div class="chip" style="background: var(--color-amber-alt2-bg); color: var(--color-amber-alt2-fg)">
+              <div class="title">alt2</div>
+              <div>bg</div>
+              <div style="border-top:1px solid var(--color-amber-alt2-border); margin-top:6px; padding-top:6px">border/accent</div>
+            </div>
+          
+            <div class="chip" style="background: var(--color-amber-alt3-bg); color: var(--color-amber-alt3-fg)">
+              <div class="title">alt3</div>
+              <div>bg</div>
+              <div style="border-top:1px solid var(--color-amber-alt3-border); margin-top:6px; padding-top:6px">border/accent</div>
+            </div>
+          
+        </div>
+      
+
+        <h3>yellow</h3>
+        <div class="row">
+          
+            <div class="chip" style="background: var(--color-yellow-alt1-bg); color: var(--color-yellow-alt1-fg)">
+              <div class="title">alt1</div>
+              <div>bg</div>
+              <div style="border-top:1px solid var(--color-yellow-alt1-border); margin-top:6px; padding-top:6px">border/accent</div>
+            </div>
+          
+            <div class="chip" style="background: var(--color-yellow-alt2-bg); color: var(--color-yellow-alt2-fg)">
+              <div class="title">alt2</div>
+              <div>bg</div>
+              <div style="border-top:1px solid var(--color-yellow-alt2-border); margin-top:6px; padding-top:6px">border/accent</div>
+            </div>
+          
+            <div class="chip" style="background: var(--color-yellow-alt3-bg); color: var(--color-yellow-alt3-fg)">
+              <div class="title">alt3</div>
+              <div>bg</div>
+              <div style="border-top:1px solid var(--color-yellow-alt3-border); margin-top:6px; padding-top:6px">border/accent</div>
+            </div>
+          
+        </div>
+      
+
+        <h3>lime</h3>
+        <div class="row">
+          
+            <div class="chip" style="background: var(--color-lime-alt1-bg); color: var(--color-lime-alt1-fg)">
+              <div class="title">alt1</div>
+              <div>bg</div>
+              <div style="border-top:1px solid var(--color-lime-alt1-border); margin-top:6px; padding-top:6px">border/accent</div>
+            </div>
+          
+            <div class="chip" style="background: var(--color-lime-alt2-bg); color: var(--color-lime-alt2-fg)">
+              <div class="title">alt2</div>
+              <div>bg</div>
+              <div style="border-top:1px solid var(--color-lime-alt2-border); margin-top:6px; padding-top:6px">border/accent</div>
+            </div>
+          
+            <div class="chip" style="background: var(--color-lime-alt3-bg); color: var(--color-lime-alt3-fg)">
+              <div class="title">alt3</div>
+              <div>bg</div>
+              <div style="border-top:1px solid var(--color-lime-alt3-border); margin-top:6px; padding-top:6px">border/accent</div>
+            </div>
+          
+        </div>
+      
+
+        <h3>green</h3>
+        <div class="row">
+          
+            <div class="chip" style="background: var(--color-green-alt1-bg); color: var(--color-green-alt1-fg)">
+              <div class="title">alt1</div>
+              <div>bg</div>
+              <div style="border-top:1px solid var(--color-green-alt1-border); margin-top:6px; padding-top:6px">border/accent</div>
+            </div>
+          
+            <div class="chip" style="background: var(--color-green-alt2-bg); color: var(--color-green-alt2-fg)">
+              <div class="title">alt2</div>
+              <div>bg</div>
+              <div style="border-top:1px solid var(--color-green-alt2-border); margin-top:6px; padding-top:6px">border/accent</div>
+            </div>
+          
+            <div class="chip" style="background: var(--color-green-alt3-bg); color: var(--color-green-alt3-fg)">
+              <div class="title">alt3</div>
+              <div>bg</div>
+              <div style="border-top:1px solid var(--color-green-alt3-border); margin-top:6px; padding-top:6px">border/accent</div>
+            </div>
+          
+        </div>
+      
+
+        <h3>teal</h3>
+        <div class="row">
+          
+            <div class="chip" style="background: var(--color-teal-alt1-bg); color: var(--color-teal-alt1-fg)">
+              <div class="title">alt1</div>
+              <div>bg</div>
+              <div style="border-top:1px solid var(--color-teal-alt1-border); margin-top:6px; padding-top:6px">border/accent</div>
+            </div>
+          
+            <div class="chip" style="background: var(--color-teal-alt2-bg); color: var(--color-teal-alt2-fg)">
+              <div class="title">alt2</div>
+              <div>bg</div>
+              <div style="border-top:1px solid var(--color-teal-alt2-border); margin-top:6px; padding-top:6px">border/accent</div>
+            </div>
+          
+            <div class="chip" style="background: var(--color-teal-alt3-bg); color: var(--color-teal-alt3-fg)">
+              <div class="title">alt3</div>
+              <div>bg</div>
+              <div style="border-top:1px solid var(--color-teal-alt3-border); margin-top:6px; padding-top:6px">border/accent</div>
+            </div>
+          
+        </div>
+      
+
+        <h3>cyan</h3>
+        <div class="row">
+          
+            <div class="chip" style="background: var(--color-cyan-alt1-bg); color: var(--color-cyan-alt1-fg)">
+              <div class="title">alt1</div>
+              <div>bg</div>
+              <div style="border-top:1px solid var(--color-cyan-alt1-border); margin-top:6px; padding-top:6px">border/accent</div>
+            </div>
+          
+            <div class="chip" style="background: var(--color-cyan-alt2-bg); color: var(--color-cyan-alt2-fg)">
+              <div class="title">alt2</div>
+              <div>bg</div>
+              <div style="border-top:1px solid var(--color-cyan-alt2-border); margin-top:6px; padding-top:6px">border/accent</div>
+            </div>
+          
+            <div class="chip" style="background: var(--color-cyan-alt3-bg); color: var(--color-cyan-alt3-fg)">
+              <div class="title">alt3</div>
+              <div>bg</div>
+              <div style="border-top:1px solid var(--color-cyan-alt3-border); margin-top:6px; padding-top:6px">border/accent</div>
+            </div>
+          
+        </div>
+      
+
+        <h3>blue</h3>
+        <div class="row">
+          
+            <div class="chip" style="background: var(--color-blue-alt1-bg); color: var(--color-blue-alt1-fg)">
+              <div class="title">alt1</div>
+              <div>bg</div>
+              <div style="border-top:1px solid var(--color-blue-alt1-border); margin-top:6px; padding-top:6px">border/accent</div>
+            </div>
+          
+            <div class="chip" style="background: var(--color-blue-alt2-bg); color: var(--color-blue-alt2-fg)">
+              <div class="title">alt2</div>
+              <div>bg</div>
+              <div style="border-top:1px solid var(--color-blue-alt2-border); margin-top:6px; padding-top:6px">border/accent</div>
+            </div>
+          
+            <div class="chip" style="background: var(--color-blue-alt3-bg); color: var(--color-blue-alt3-fg)">
+              <div class="title">alt3</div>
+              <div>bg</div>
+              <div style="border-top:1px solid var(--color-blue-alt3-border); margin-top:6px; padding-top:6px">border/accent</div>
+            </div>
+          
+        </div>
+      
+
+        <h3>indigo</h3>
+        <div class="row">
+          
+            <div class="chip" style="background: var(--color-indigo-alt1-bg); color: var(--color-indigo-alt1-fg)">
+              <div class="title">alt1</div>
+              <div>bg</div>
+              <div style="border-top:1px solid var(--color-indigo-alt1-border); margin-top:6px; padding-top:6px">border/accent</div>
+            </div>
+          
+            <div class="chip" style="background: var(--color-indigo-alt2-bg); color: var(--color-indigo-alt2-fg)">
+              <div class="title">alt2</div>
+              <div>bg</div>
+              <div style="border-top:1px solid var(--color-indigo-alt2-border); margin-top:6px; padding-top:6px">border/accent</div>
+            </div>
+          
+            <div class="chip" style="background: var(--color-indigo-alt3-bg); color: var(--color-indigo-alt3-fg)">
+              <div class="title">alt3</div>
+              <div>bg</div>
+              <div style="border-top:1px solid var(--color-indigo-alt3-border); margin-top:6px; padding-top:6px">border/accent</div>
+            </div>
+          
+        </div>
+      
+
+        <h3>violet</h3>
+        <div class="row">
+          
+            <div class="chip" style="background: var(--color-violet-alt1-bg); color: var(--color-violet-alt1-fg)">
+              <div class="title">alt1</div>
+              <div>bg</div>
+              <div style="border-top:1px solid var(--color-violet-alt1-border); margin-top:6px; padding-top:6px">border/accent</div>
+            </div>
+          
+            <div class="chip" style="background: var(--color-violet-alt2-bg); color: var(--color-violet-alt2-fg)">
+              <div class="title">alt2</div>
+              <div>bg</div>
+              <div style="border-top:1px solid var(--color-violet-alt2-border); margin-top:6px; padding-top:6px">border/accent</div>
+            </div>
+          
+            <div class="chip" style="background: var(--color-violet-alt3-bg); color: var(--color-violet-alt3-fg)">
+              <div class="title">alt3</div>
+              <div>bg</div>
+              <div style="border-top:1px solid var(--color-violet-alt3-border); margin-top:6px; padding-top:6px">border/accent</div>
+            </div>
+          
+        </div>
+      
+
+        <h3>purple</h3>
+        <div class="row">
+          
+            <div class="chip" style="background: var(--color-purple-alt1-bg); color: var(--color-purple-alt1-fg)">
+              <div class="title">alt1</div>
+              <div>bg</div>
+              <div style="border-top:1px solid var(--color-purple-alt1-border); margin-top:6px; padding-top:6px">border/accent</div>
+            </div>
+          
+            <div class="chip" style="background: var(--color-purple-alt2-bg); color: var(--color-purple-alt2-fg)">
+              <div class="title">alt2</div>
+              <div>bg</div>
+              <div style="border-top:1px solid var(--color-purple-alt2-border); margin-top:6px; padding-top:6px">border/accent</div>
+            </div>
+          
+            <div class="chip" style="background: var(--color-purple-alt3-bg); color: var(--color-purple-alt3-fg)">
+              <div class="title">alt3</div>
+              <div>bg</div>
+              <div style="border-top:1px solid var(--color-purple-alt3-border); margin-top:6px; padding-top:6px">border/accent</div>
+            </div>
+          
+        </div>
+      
+
+        <h3>pink</h3>
+        <div class="row">
+          
+            <div class="chip" style="background: var(--color-pink-alt1-bg); color: var(--color-pink-alt1-fg)">
+              <div class="title">alt1</div>
+              <div>bg</div>
+              <div style="border-top:1px solid var(--color-pink-alt1-border); margin-top:6px; padding-top:6px">border/accent</div>
+            </div>
+          
+            <div class="chip" style="background: var(--color-pink-alt2-bg); color: var(--color-pink-alt2-fg)">
+              <div class="title">alt2</div>
+              <div>bg</div>
+              <div style="border-top:1px solid var(--color-pink-alt2-border); margin-top:6px; padding-top:6px">border/accent</div>
+            </div>
+          
+            <div class="chip" style="background: var(--color-pink-alt3-bg); color: var(--color-pink-alt3-fg)">
+              <div class="title">alt3</div>
+              <div>bg</div>
+              <div style="border-top:1px solid var(--color-pink-alt3-border); margin-top:6px; padding-top:6px">border/accent</div>
+            </div>
+          
+        </div>
+      
+
+        <h3>gray</h3>
+        <div class="row">
+          
+            <div class="chip" style="background: var(--color-gray-alt1-bg); color: var(--color-gray-alt1-fg)">
+              <div class="title">alt1</div>
+              <div>bg</div>
+              <div style="border-top:1px solid var(--color-gray-alt1-border); margin-top:6px; padding-top:6px">border/accent</div>
+            </div>
+          
+            <div class="chip" style="background: var(--color-gray-alt2-bg); color: var(--color-gray-alt2-fg)">
+              <div class="title">alt2</div>
+              <div>bg</div>
+              <div style="border-top:1px solid var(--color-gray-alt2-border); margin-top:6px; padding-top:6px">border/accent</div>
+            </div>
+          
+            <div class="chip" style="background: var(--color-gray-alt3-bg); color: var(--color-gray-alt3-fg)">
+              <div class="title">alt3</div>
+              <div>bg</div>
+              <div style="border-top:1px solid var(--color-gray-alt3-border); margin-top:6px; padding-top:6px">border/accent</div>
+            </div>
+          
+        </div>
+      
+    </section>
+  </body>
+</html>

@@ -1,0 +1,27 @@
+{
+  "name": "themegenerator",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "build:web": "vite build --config web/vite.config.ts",
+    "dev:web": "vite --config web/vite.config.ts",
+    "cli": "node --loader ts-node/esm cli/index.ts",
+    "generate": "npm run cli -- generate --config config/example.theme.json --out out",
+    "validate": "npm run cli -- validate --config config/example.theme.json"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.30",
+    "@types/react": "^18.2.66",
+    "@types/react-dom": "^18.2.22",
+    "@vitejs/plugin-react": "^4.3.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.6.3",
+    "vite": "^5.4.0"
+  },
+  "dependencies": {
+    "json-edit-react": "^1.29.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  }
+}

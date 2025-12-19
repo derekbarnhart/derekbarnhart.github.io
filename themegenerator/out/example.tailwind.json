@@ -1,0 +1,316 @@
+{
+  "colors": {
+    "red": {
+      "DEFAULT": "var(--color-red-alt2-bg)",
+      "bg": {
+        "alt1": "var(--color-red-alt1-bg)",
+        "alt2": "var(--color-red-alt2-bg)",
+        "alt3": "var(--color-red-alt3-bg)"
+      },
+      "fg": {
+        "alt1": "var(--color-red-alt1-fg)",
+        "alt2": "var(--color-red-alt2-fg)",
+        "alt3": "var(--color-red-alt3-fg)"
+      },
+      "border": {
+        "alt1": "var(--color-red-alt1-border)",
+        "alt2": "var(--color-red-alt2-border)",
+        "alt3": "var(--color-red-alt3-border)"
+      },
+      "accent": {
+        "alt1": "var(--color-red-alt1-accent)",
+        "alt2": "var(--color-red-alt2-accent)",
+        "alt3": "var(--color-red-alt3-accent)"
+      }
+    },
+    "orange": {
+      "DEFAULT": "var(--color-orange-alt2-bg)",
+      "bg": {
+        "alt1": "var(--color-orange-alt1-bg)",
+        "alt2": "var(--color-orange-alt2-bg)",
+        "alt3": "var(--color-orange-alt3-bg)"
+      },
+      "fg": {
+        "alt1": "var(--color-orange-alt1-fg)",
+        "alt2": "var(--color-orange-alt2-fg)",
+        "alt3": "var(--color-orange-alt3-fg)"
+      },
+      "border": {
+        "alt1": "var(--color-orange-alt1-border)",
+        "alt2": "var(--color-orange-alt2-border)",
+        "alt3": "var(--color-orange-alt3-border)"
+      },
+      "accent": {
+        "alt1": "var(--color-orange-alt1-accent)",
+        "alt2": "var(--color-orange-alt2-accent)",
+        "alt3": "var(--color-orange-alt3-accent)"
+      }
+    },
+    "yellow": {
+      "DEFAULT": "var(--color-yellow-alt2-bg)",
+      "bg": {
+        "alt1": "var(--color-yellow-alt1-bg)",
+        "alt2": "var(--color-yellow-alt2-bg)",
+        "alt3": "var(--color-yellow-alt3-bg)"
+      },
+      "fg": {
+        "alt1": "var(--color-yellow-alt1-fg)",
+        "alt2": "var(--color-yellow-alt2-fg)",
+        "alt3": "var(--color-yellow-alt3-fg)"
+      },
+      "border": {
+        "alt1": "var(--color-yellow-alt1-border)",
+        "alt2": "var(--color-yellow-alt2-border)",
+        "alt3": "var(--color-yellow-alt3-border)"
+      },
+      "accent": {
+        "alt1": "var(--color-yellow-alt1-accent)",
+        "alt2": "var(--color-yellow-alt2-accent)",
+        "alt3": "var(--color-yellow-alt3-accent)"
+      }
+    },
+    "lime": {
+      "DEFAULT": "var(--color-lime-alt2-bg)",
+      "bg": {
+        "alt1": "var(--color-lime-alt1-bg)",
+        "alt2": "var(--color-lime-alt2-bg)",
+        "alt3": "var(--color-lime-alt3-bg)"
+      },
+      "fg": {
+        "alt1": "var(--color-lime-alt1-fg)",
+        "alt2": "var(--color-lime-alt2-fg)",
+        "alt3": "var(--color-lime-alt3-fg)"
+      },
+      "border": {
+        "alt1": "var(--color-lime-alt1-border)",
+        "alt2": "var(--color-lime-alt2-border)",
+        "alt3": "var(--color-lime-alt3-border)"
+      },
+      "accent": {
+        "alt1": "var(--color-lime-alt1-accent)",
+        "alt2": "var(--color-lime-alt2-accent)",
+        "alt3": "var(--color-lime-alt3-accent)"
+      }
+    },
+    "green": {
+      "DEFAULT": "var(--color-green-alt2-bg)",
+      "bg": {
+        "alt1": "var(--color-green-alt1-bg)",
+        "alt2": "var(--color-green-alt2-bg)",
+        "alt3": "var(--color-green-alt3-bg)"
+      },
+      "fg": {
+        "alt1": "var(--color-green-alt1-fg)",
+        "alt2": "var(--color-green-alt2-fg)",
+        "alt3": "var(--color-green-alt3-fg)"
+      },
+      "border": {
+        "alt1": "var(--color-green-alt1-border)",
+        "alt2": "var(--color-green-alt2-border)",
+        "alt3": "var(--color-green-alt3-border)"
+      },
+      "accent": {
+        "alt1": "var(--color-green-alt1-accent)",
+        "alt2": "var(--color-green-alt2-accent)",
+        "alt3": "var(--color-green-alt3-accent)"
+      }
+    },
+    "teal": {
+      "DEFAULT": "var(--color-teal-alt2-bg)",
+      "bg": {
+        "alt1": "var(--color-teal-alt1-bg)",
+        "alt2": "var(--color-teal-alt2-bg)",
+        "alt3": "var(--color-teal-alt3-bg)"
+      },
+      "fg": {
+        "alt1": "var(--color-teal-alt1-fg)",
+        "alt2": "var(--color-teal-alt2-fg)",
+        "alt3": "var(--color-teal-alt3-fg)"
+      },
+      "border": {
+        "alt1": "var(--color-teal-alt1-border)",
+        "alt2": "var(--color-teal-alt2-border)",
+        "alt3": "var(--color-teal-alt3-border)"
+      },
+      "accent": {
+        "alt1": "var(--color-teal-alt1-accent)",
+        "alt2": "var(--color-teal-alt2-accent)",
+        "alt3": "var(--color-teal-alt3-accent)"
+      }
+    },
+    "cyan": {
+      "DEFAULT": "var(--color-cyan-alt2-bg)",
+      "bg": {
+        "alt1": "var(--color-cyan-alt1-bg)",
+        "alt2": "var(--color-cyan-alt2-bg)",
+        "alt3": "var(--color-cyan-alt3-bg)"
+      },
+      "fg": {
+        "alt1": "var(--color-cyan-alt1-fg)",
+        "alt2": "var(--color-cyan-alt2-fg)",
+        "alt3": "var(--color-cyan-alt3-fg)"
+      },
+      "border": {
+        "alt1": "var(--color-cyan-alt1-border)",
+        "alt2": "var(--color-cyan-alt2-border)",
+        "alt3": "var(--color-cyan-alt3-border)"
+      },
+      "accent": {
+        "alt1": "var(--color-cyan-alt1-accent)",
+        "alt2": "var(--color-cyan-alt2-accent)",
+        "alt3": "var(--color-cyan-alt3-accent)"
+      }
+    },
+    "blue": {
+      "DEFAULT": "var(--color-blue-alt2-bg)",
+      "bg": {
+        "alt1": "var(--color-blue-alt1-bg)",
+        "alt2": "var(--color-blue-alt2-bg)",
+        "alt3": "var(--color-blue-alt3-bg)"
+      },
+      "fg": {
+        "alt1": "var(--color-blue-alt1-fg)",
+        "alt2": "var(--color-blue-alt2-fg)",
+        "alt3": "var(--color-blue-alt3-fg)"
+      },
+      "border": {
+        "alt1": "var(--color-blue-alt1-border)",
+        "alt2": "var(--color-blue-alt2-border)",
+        "alt3": "var(--color-blue-alt3-border)"
+      },
+      "accent": {
+        "alt1": "var(--color-blue-alt1-accent)",
+        "alt2": "var(--color-blue-alt2-accent)",
+        "alt3": "var(--color-blue-alt3-accent)"
+      }
+    },
+    "indigo": {
+      "DEFAULT": "var(--color-indigo-alt2-bg)",
+      "bg": {
+        "alt1": "var(--color-indigo-alt1-bg)",
+        "alt2": "var(--color-indigo-alt2-bg)",
+        "alt3": "var(--color-indigo-alt3-bg)"
+      },
+      "fg": {
+        "alt1": "var(--color-indigo-alt1-fg)",
+        "alt2": "var(--color-indigo-alt2-fg)",
+        "alt3": "var(--color-indigo-alt3-fg)"
+      },
+      "border": {
+        "alt1": "var(--color-indigo-alt1-border)",
+        "alt2": "var(--color-indigo-alt2-border)",
+        "alt3": "var(--color-indigo-alt3-border)"
+      },
+      "accent": {
+        "alt1": "var(--color-indigo-alt1-accent)",
+        "alt2": "var(--color-indigo-alt2-accent)",
+        "alt3": "var(--color-indigo-alt3-accent)"
+      }
+    },
+    "violet": {
+      "DEFAULT": "var(--color-violet-alt2-bg)",
+      "bg": {
+        "alt1": "var(--color-violet-alt1-bg)",
+        "alt2": "var(--color-violet-alt2-bg)",
+        "alt3": "var(--color-violet-alt3-bg)"
+      },
+      "fg": {
+        "alt1": "var(--color-violet-alt1-fg)",
+        "alt2": "var(--color-violet-alt2-fg)",
+        "alt3": "var(--color-violet-alt3-fg)"
+      },
+      "border": {
+        "alt1": "var(--color-violet-alt1-border)",
+        "alt2": "var(--color-violet-alt2-border)",
+        "alt3": "var(--color-violet-alt3-border)"
+      },
+      "accent": {
+        "alt1": "var(--color-violet-alt1-accent)",
+        "alt2": "var(--color-violet-alt2-accent)",
+        "alt3": "var(--color-violet-alt3-accent)"
+      }
+    },
+    "purple": {
+      "DEFAULT": "var(--color-purple-alt2-bg)",
+      "bg": {
+        "alt1": "var(--color-purple-alt1-bg)",
+        "alt2": "var(--color-purple-alt2-bg)",
+        "alt3": "var(--color-purple-alt3-bg)"
+      },
+      "fg": {
+        "alt1": "var(--color-purple-alt1-fg)",
+        "alt2": "var(--color-purple-alt2-fg)",
+        "alt3": "var(--color-purple-alt3-fg)"
+      },
+      "border": {
+        "alt1": "var(--color-purple-alt1-border)",
+        "alt2": "var(--color-purple-alt2-border)",
+        "alt3": "var(--color-purple-alt3-border)"
+      },
+      "accent": {
+        "alt1": "var(--color-purple-alt1-accent)",
+        "alt2": "var(--color-purple-alt2-accent)",
+        "alt3": "var(--color-purple-alt3-accent)"
+      }
+    },
+    "pink": {
+      "DEFAULT": "var(--color-pink-alt2-bg)",
+      "bg": {
+        "alt1": "var(--color-pink-alt1-bg)",
+        "alt2": "var(--color-pink-alt2-bg)",
+        "alt3": "var(--color-pink-alt3-bg)"
+      },
+      "fg": {
+        "alt1": "var(--color-pink-alt1-fg)",
+        "alt2": "var(--color-pink-alt2-fg)",
+        "alt3": "var(--color-pink-alt3-fg)"
+      },
+      "border": {
+        "alt1": "var(--color-pink-alt1-border)",
+        "alt2": "var(--color-pink-alt2-border)",
+        "alt3": "var(--color-pink-alt3-border)"
+      },
+      "accent": {
+        "alt1": "var(--color-pink-alt1-accent)",
+        "alt2": "var(--color-pink-alt2-accent)",
+        "alt3": "var(--color-pink-alt3-accent)"
+      }
+    },
+    "gray": {
+      "DEFAULT": "var(--color-gray-alt2-bg)",
+      "bg": {
+        "alt1": "var(--color-gray-alt1-bg)",
+        "alt2": "var(--color-gray-alt2-bg)",
+        "alt3": "var(--color-gray-alt3-bg)"
+      },
+      "fg": {
+        "alt1": "var(--color-gray-alt1-fg)",
+        "alt2": "var(--color-gray-alt2-fg)",
+        "alt3": "var(--color-gray-alt3-fg)"
+      },
+      "border": {
+        "alt1": "var(--color-gray-alt1-border)",
+        "alt2": "var(--color-gray-alt2-border)",
+        "alt3": "var(--color-gray-alt3-border)"
+      },
+      "accent": {
+        "alt1": "var(--color-gray-alt1-accent)",
+        "alt2": "var(--color-gray-alt2-accent)",
+        "alt3": "var(--color-gray-alt3-accent)"
+      }
+    },
+    "surface": {
+      "canvas": "var(--surface-canvas)",
+      "panel": "var(--surface-panel)",
+      "subtle": "var(--surface-subtle)"
+    },
+    "text": {
+      "primary": "var(--text-primary)",
+      "muted": "var(--text-muted)"
+    },
+    "border": {
+      "subtle": "var(--border-subtle)",
+      "strong": "var(--border-strong)"
+    }
+  }
+}

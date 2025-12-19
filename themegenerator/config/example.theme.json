@@ -1,0 +1,22 @@
+{
+  "name": "example",
+  "neutralHue": 260,
+  "chromaCaps": { "bg": 0.08, "fg": 0.18, "accent": 0.20 },
+  "apca": { "textThreshold": 60, "displayThreshold": 45 },
+  "hues": {
+    "red":    { "h": 25,  "cBg": 0.06, "cFg": 0.15 },
+    "orange": { "h": 55,  "cBg": 0.06, "cFg": 0.15 },
+    "yellow": { "h": 95,  "cBg": 0.05, "cFg": 0.12 },
+    "lime":   { "h": 120, "cBg": 0.05, "cFg": 0.13 },
+    "green":  { "h": 145, "cBg": 0.06, "cFg": 0.14 },
+    "teal":   { "h": 170, "cBg": 0.06, "cFg": 0.14 },
+    "cyan":   { "h": 200, "cBg": 0.06, "cFg": 0.14 },
+    "blue":   { "h": 255, "cBg": 0.05, "cFg": 0.14 },
+    "indigo": { "h": 275, "cBg": 0.05, "cFg": 0.14 },
+    "violet": { "h": 295, "cBg": 0.05, "cFg": 0.15 },
+    "purple": { "h": 305, "cBg": 0.05, "cFg": 0.15 },
+    "pink":   { "h": 335, "cBg": 0.06, "cFg": 0.16 },
+    "gray":   { "h": 260, "cBg": 0.02, "cFg": 0.02 }
+  },
+  "overrides": {}
+}
