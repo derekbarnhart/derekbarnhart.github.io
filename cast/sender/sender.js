@@ -1,17 +1,26 @@
 
+const canCast = false;
 window.__onGCastApiAvailable = function (isAvailable) {
   console.log("Api Available: ", isAvailable)
-  
+  canCast = isAvailable
   if (!isAvailable) return;
 
-  cast.framework.CastContext.getInstance().setOptions({
-    receiverApplicationId: "C980997E" , //chrome.cast.media.DEFAULT_MEDIA_RECEIVER_APP_ID,
-    autoJoinPolicy: chrome.cast.AutoJoinPolicy.ORIGIN_SCOPED
-  });
+
 };
 
 document.getElementById("cast").onclick = async () => {
-  const context = cast.framework.CastContext.getInstance();
+  if(!canCast) {
+    console.log("Casting not available");
+    return
+  }
+
+  const context = cast.framework.CastContext.getInstance()
+  
+  context.setOptions({
+    receiverApplicationId: "C980997E" , //chrome.cast.media.DEFAULT_MEDIA_RECEIVER_APP_ID,
+    // autoJoinPolicy: chrome.cast.AutoJoinPolicy.ORIGIN_SCOPED
+  });
+
   try {
         const session = await context.requestSession();
 
