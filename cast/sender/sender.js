@@ -1,5 +1,5 @@
 
-const canCast = false;
+let canCast = false;
 window.__onGCastApiAvailable = function (isAvailable) {
   console.log("Api Available: ", isAvailable)
   canCast = isAvailable
