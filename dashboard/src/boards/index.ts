@@ -1,7 +1,10 @@
 import type { Board } from '../types';
 
-export const boards: Record<string, Board> = {
-  default: {
+
+// What if the board was a visual context helper instead of just a dashboard
+// As you switch between tasks for the day the board changes the relevant info
+// Working on project A -> board with status 
+const testBoard: Board = {
     id: 'default',
     title: 'Desk Dashboard',
     layout: { columns: 12, rowHeight: 80, gap: 8, background: undefined },
@@ -12,8 +15,8 @@ export const boards: Record<string, Board> = {
       { id: 'weather1', type: 'weather', position: { x: 5, y: 0, w: 4, h: 2 }, props: { lat: 37.77, lon: -122.42, units: 'imperial' }, color: 'teal-alt2' },
       { id: 'quote1', type: 'quote', position: { x: 0, y: 2, w: 9, h: 2 }, props: { intervalMs: 60000 } },
     ],
-  },
-  minimal: {
+  }
+const  minimal: Board = {
     id: 'minimal',
     title: 'Minimal',
     layout: { columns: 12, rowHeight: 90, gap: 10, background: undefined },
@@ -22,7 +25,13 @@ export const boards: Record<string, Board> = {
     widgets: [
       { id: 'clock2', type: 'clock', position: { x: 0, y: 0, w: 12, h: 3 }, props: { showSeconds: false } },
     ],
-  },
+  }
+
+
+
+export const boards: Record<string, Board> = {
+  default: testBoard,
+  minimal
 };
 
 export const boardOrder = Object.keys(boards);
